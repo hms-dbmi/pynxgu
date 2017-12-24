@@ -8,7 +8,7 @@ RUN	apt-get -y update && \
  	apt-get -y install unzip
 
 #Installing python packages
-RUN pip install django==1.10
+RUN pip install django==2.0
 RUN pip install gunicorn
 
 #Installing vault 	
